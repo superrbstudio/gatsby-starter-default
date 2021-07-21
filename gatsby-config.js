@@ -78,6 +78,7 @@ module.exports = {
 
         schemas: {
           // Register your custom schemas here
+          homepage: require("./src/schemas/homepage.json"),
         },
         shouldDownloadImage: ({ node, key, value }) => {
           // Return true to download the image or false to skip.
@@ -123,9 +124,7 @@ module.exports = {
           `**/404.html`,
           `**/offline-plugin-app-shell-fallback/**`,
         ],
-        crumbLabelUpdates: [
-
-        ],
+        crumbLabelUpdates: [],
       },
     },
   ],
