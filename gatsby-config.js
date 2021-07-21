@@ -17,7 +17,7 @@ module.exports = {
     author: `@superrbstudio`,
     siteUrl: `https://github.com/superrbstudio/gatsby-source-prismic/`,
   },
-  plugins: [x
+  plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
