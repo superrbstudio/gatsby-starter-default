@@ -1,5 +1,5 @@
 @function between($from, $to, $fromWidth, $toWidth)
-  $slope: ($from - $to) / ($fromWidth - $toWidth)
+  $slope: math.div($from - $to, $fromWidth - $toWidth)
   $base: $to - $slope * $toWidth
 
   @return calc(#{$base} + #{100vw * $slope})
